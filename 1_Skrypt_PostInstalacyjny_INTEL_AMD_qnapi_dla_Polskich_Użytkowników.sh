@@ -1,4 +1,9 @@
 #!/bin/sh
+#Nazwa:Post-Instalacyjny Skrypt dla Ubuntu 16.04 LTS  w jezyku polskim dla użykowników Intel i AMD.
+#Opis: Instaluje kodeki, przydatne aplikacje i konfiguruje system
+#Usage: sudo bash 1_Skrypt_PostInstalacyjny_INTEL_AMD_qnapi_dla_Polskich_Użytkowników.sh
+#Autor: Michał Klekowicki
+#Data: 1 June 2016
 
 echo "Ten skrypt zainstaluje zbiór przydatnych programów dla Ubuntu 16.04, doda repozytoria z najnowszymi sterownikami dla kart graficznych oraz zminimalizuje spowolnienia związane z użyciem pamięci SWAP (szczegóły w README)."
 
