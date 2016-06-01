@@ -117,7 +117,7 @@ The second script ("Script_PostInstall_Config_And_Cleanup.sh"):
 
 <b>Należy wybrać wersję skryptu na bazie używanej przez siebie karty graficznej oraz preferowanego języka.</b>
 
-<b>Wersja polska isntaluje dodatkowo program Qnapi, który pobiera napisy do filmów z serwisów będących bazamo takowych</b>
+<b>Wersja polska isntaluje dodatkowo program Qnapi, który pobiera napisy do filmów z serwisów będących bazami takowych.</b>
 
 
 Skrypty napisane zostały dla użytkowników komputerów osobistych, którzy właśnie zainstalowali Ubuntu 16.04 i nie chcą przechodzić przez cały nudny proces instalowania każdego przydatnego programy pojedynczo, jednak nie są na tyle zaznajomieni z linią komend aby przyspieszyć ten proces i/lub potrzebują po prostu gotowego skryptu który wykona niezbędne czynności. W czasie działania skryptu wykonywana jest także przydatna konfiguracja. Skrypty są zaprojektowane aby egzekwować MINIMALNE ILOŚCI UWAGI ze strony użytkownika. Będą potrzebowały potwierdzania tylko w czasie instalacji Ograniczonych Dodatków Ubuntu, czcionek Microsoft oraz w czasie sprzątania systemu.
