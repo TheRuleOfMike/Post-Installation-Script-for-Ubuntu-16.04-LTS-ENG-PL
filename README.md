@@ -4,17 +4,17 @@
 
 <b>Attention! Use the scripts at your own risk.</b>
 
-<b>Choose the version of the script based on the GPU you are using and your prefered language.</b>
+<b>Choose the version of the script based on the GPU you are using and your preferred language.</b>
 
-The scripts are written for individual users that just installed Ubuntu 16.04 and don't want to go through the whole boring process of installing every single needed program one by one, are not familiar enough with the command line to make the process faster and/or just wanted to find a ready script that does all that. Also some useful configuration is done during execution. The scripts are designed to need MINIMAL ATTENTION from the user. They will need confirmation only while installing the Ubuntu Restricted Extras with Microsoft Core Fonts and while cleaning up the system.
+The scripts are written for individual users that have just installed Ubuntu 16.04 and don't want to go through the whole boring process of installing every single needed program one by one, are not familiar enough with the command line to make the process faster and/or just want to find a ready script that does all that. Also some useful configuration is done during execution. The scripts are designed to need MINIMAL ATTENTION from the user. They will need confirmation only while installing the Ubuntu Restricted Extras with Microsoft Core Fonts and while cleaning up the system.
 
 I advise to run a full system update before running the script.
 
-The scripts were tested on a MSI CR61 laptop (with Intel Core i3 4000M procesor, 4GB of RAM and an Intel HD 4600 integrated GPU) and on a 64bit Virtual Machine (Virtual Box - 768 MB RAM, 128 video memory, 3d acceleration enabled, 1 virtual CPU, 30GB virtual Hard Drive). No problems accured after the full execution of both scripts (in fact, I written them to save some time while installing Ubuntu 16.04 LTS).
+The scripts were tested on a MSI CR61 laptop (with Intel Core i3 4000M procesor, 4GB of RAM and an Intel HD 4600 integrated GPU) and on a 64bit Virtual Machine (Virtual Box - 768 MB RAM, 128 video memory, 3d acceleration enabled, 1 virtual CPU, 30GB virtual Hard Drive). No problems occured after the full execution of both scripts (in fact, I've written them to save some time while installing Ubuntu 16.04 LTS).
 
 -----
 
-The process is divided in to two separate scripts:
+The process is divided into to two separate scripts:
 <ol>
 <li>The basic install script that mostly requires superuser permissions which mean it should be run with "sudo bash script_name.sh"
 <li>The second, "config", script that will prompt you for the sudo password at the beginning and should be run with bash script_name.sh
@@ -23,7 +23,7 @@ The process is divided in to two separate scripts:
 
 The first script ("Script_PostInstall_Ubuntu1604_XXX.sh"):
 <ul>
-<li>Changes swappiness from 60 to 10 ("10" is perfectly suitable for desktop use and means that the system will write less data to SWAP which is more healthy for SSD drives and also will shorten the process of "waking up" applications that are left idle in the background)
+<li>Changes swappiness from 60 to 10 ("10" is perfectly suitable for desktop use which means that the system will write less data to SWAP which is more healthy for SSD drives and also will shorten the process of "waking up" applications that are left idle in the background)
 
 <li>Installs Ubuntu Restricted Extras (without Flash - it's a security risk on all operating systems and I advise to just skip it)
 
@@ -60,7 +60,7 @@ The first script ("Script_PostInstall_Ubuntu1604_XXX.sh"):
 <li>Google Chrome - an alternative for Firefox that comes pre-installed in Ubuntu 16.04
 </ul>
 <br/><br/>
-<b>(if your having problems while using, or due to using, the above applications I advise contacting the official support of those applications, search the forums for the user applications or the official Ubuntu forums)</b>
+<b>(if you're having problems while using, or due to using, the above applications I advise contacting the official support of those applications, search the forums for the user applications or the official Ubuntu forums)</b>
 <br/><br/>
 <li>Adds a repository for the latest GPU drivers (run the version of the script based on which GPU you are using)
 
