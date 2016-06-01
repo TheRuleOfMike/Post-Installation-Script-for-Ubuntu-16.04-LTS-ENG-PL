@@ -1,4 +1,10 @@
 #!/bin/sh
+#Title:Post-Installation Script for Ubuntu 16.04 LTS in Englishfor NVIDIA users.
+#Description: Installs codecs, useful apps and configures the system
+#Usage: sudo bash 1_Script_PostInstall_Ubuntu1604_NVIDIA.sh
+#Author: Michał Klekowicki
+#Date: 1 June 2016
+
 echo "This script will install useful software for Ubuntu 16.04, add repositories for the latest GPU drivers and minimize performance issues connected to the usage of SWAP (check README for details)."
 
 echo
