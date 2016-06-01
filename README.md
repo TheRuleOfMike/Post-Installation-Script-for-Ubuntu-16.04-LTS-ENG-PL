@@ -4,6 +4,8 @@
 
 <b>Attention! Use the scripts at your own risk.</b>
 
+<b>Choose the version of the script based on the GPU you are using and your prefered language.</b>
+
 The scripts are written for individual users that just installed Ubuntu 16.04 and don't want to go through the whole boring process of installing every single needed program one by one, are not familiar enough with the command line to make the process faster and/or just wanted to find a ready script that does all that. Also some useful configuration is done during execution. The scripts are designed to need MINIMAL ATTENTION from the user. They will need confirmation only while installing the Ubuntu Restricted Extras with Microsoft Core Fonts and while cleaning up the system.
 
 I advise to run a full system update before running the script.
@@ -112,6 +114,8 @@ The second script ("Script_PostInstall_Config_And_Cleanup.sh"):
 # WERSJA POLSKA
 
 <b>Uwaga! Użytkowanie skryptów na własne ryzyko.</b>
+
+<b>Należy wybrać wersję skryptu na bazie używanej przez siebie karty graficznej oraz preferowanego języka.</b>
 
 Skrypty napisane zostały dla użytkowników komputerów osobistych, którzy właśnie zainstalowali Ubuntu 16.04 i nie chcą przechodzić przez cały nudny proces instalowania każdego przydatnego programy pojedynczo, jednak nie są na tyle zaznajomieni z linią komend aby przyspieszyć ten proces i/lub potrzebują po prostu gotowego skryptu który wykona niezbędne czynności. W czasie działania skryptu wykonywana jest także przydatna konfiguracja. Skrypty są zaprojektowane aby egzekwować MINIMALNE ILOŚCI UWAGI ze strony użytkownika. Będą potrzebowały potwierdzania tylko w czasie instalacji Ograniczonych Dodatków Ubuntu, czcionek Microsoft oraz w czasie sprzątania systemu.
 
