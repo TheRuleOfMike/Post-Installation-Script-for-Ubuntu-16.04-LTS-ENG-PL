@@ -13,7 +13,7 @@ read -p "Używając tego skryptu pobierzesz oraz zainstalujesz również Wine i 
 if [[ $REPLY =~ ^[Tt]$ ]]
 then
 	#Podstawowa konfiguracja przed dalszą instalacją
-	sudo dpkg --add-architecture i386 #dodaje obsługę architektury i386
+	dpkg --add-architecture i386 #dodaje obsługę architektury i386
 	echo 'vm.swappiness = 10' >> /etc/sysctl.conf #zmienia wartość swappiness na "10"
 	echo deb http://repository.spotify.com testing non-free | sudo tee /etc/apt/sources.list.d/spotify.list #dodaje repozytorium testowych wersji Spotify
 	sed -i "/^# deb .*partner/ s/^# //" /etc/apt/sources.list #uaktywnia repozytorium Partnerów Canonical
