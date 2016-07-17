@@ -13,7 +13,7 @@ read -p "While using this script you will also download and install Wine and Pla
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	#Basic config and preparation for the rest of installation processes
-	sudo dpkg --add-architecture i386 #enables the 32 bit (i386) architecture
+	dpkg --add-architecture i386 #enables the 32 bit (i386) architecture
 	echo 'vm.swappiness = 10' >> /etc/sysctl.conf #changes swappiness to 10
 	echo deb http://repository.spotify.com testing non-free | sudo tee /etc/apt/sources.list.d/spotify.list #adds the spotify repo non-free
 	sed -i "/^# deb .*partner/ s/^# //" /etc/apt/sources.list #activates the Canonical Partner Repositories
