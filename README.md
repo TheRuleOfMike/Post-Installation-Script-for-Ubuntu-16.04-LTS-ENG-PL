@@ -139,7 +139,7 @@ Proces jest podzielony na dwa osobne skrypty:
 
 Pierwszy skrypt ("Skrypt_PostInstalacyjny_XXX_qnapi_dla_Polskich_Użytkowników"):
 <ul>
-<li>Zmienia swappiness z 60 na 10("10" jest wystarczające dla typowego użytkowania i oznacza, że system będzie zapisywał mniej danych w przestrzeni wymiany co jest bardziej "zdrowe" dla dysków SSD i skróci okres "rozbudzania" włączonych w tle, ale nie używanych aktualnie przez użytkownika)
+<li>Zmienia swappiness z 60 na 10("10" jest wystarczające dla typowego użytkowania i oznacza, że system będzie zapisywał mniej danych w przestrzeni wymiany co jest bardziej "zdrowe" dla dysków SSD i skróci okres "rozbudzania" włączonych w tle, ale nie używanych aktualnie przez użytkownika, aplikacji)
 
 <li>Instaluje Ograniczone Dodatki Ubuntu (z pominięciem Flasha - stanowi on aktualnie zagrożenie bezpieczeństwa na dowolnym systemie operacyjnym i lepiej go po prostu pominąć)
 
